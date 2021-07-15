@@ -63,7 +63,7 @@ class Keypad:
 		self._c2 = InputDevice(15)
 
 
-
+	@property
 	def value(self):
 		return self._value
 
